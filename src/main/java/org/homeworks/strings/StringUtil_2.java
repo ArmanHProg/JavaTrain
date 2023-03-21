@@ -75,7 +75,7 @@ public class StringUtil_2 {
      * @param str
      * @param token
      */
-    void lettersA(String str, String token) {
+      void lettersA(String str, String token) {
 
         String[] arr = str.split(" ");
 
@@ -115,23 +115,23 @@ public class StringUtil_2 {
      * «d». Реализуйте декодер для шифра Цезаря, где N = 5.
      * @param text
      */
-    void Cesar(String text) {
+    public String Cesar(String text) {
         String alphabet = "abcdefghijklmnopqrstuvwxyz";
         String[] arr = alphabet.split("");
         String[] arr1 = text.split("");
-
+        String output = "";
         for (int i = 0; i < text.length(); i++) {
             for (int j = 0; j < alphabet.length(); j++) {
                 if (arr1[i].equals(arr[j])) {
                     if (j > 21) {
-                        System.out.println(arr1[i].replace(arr1[i], arr[j - 21]));
+                        output += arr1[i].replace(arr1[i], arr[j - 21]);
                     } else {
-                        System.out.print(arr1[i].replace(arr1[i], arr[j + 5]));
+                        output += arr1[i].replace(arr1[i], arr[j + 5]);
                     }
                 }
             }
         }
-
+        return output;
     }
 
 //    void palindrome_2(String str) {
@@ -160,7 +160,7 @@ public class StringUtil_2 {
      * @param txt1
      * @param txt2
      */
-    void subSequence(String txt1, String txt2) {
+     public int subSequence(String txt1, String txt2) {
 
         String[] str1 = txt1.split(" ");
         String[] str2 = txt2.split(" ");
@@ -183,8 +183,7 @@ public class StringUtil_2 {
             }
 
         }
-
-        System.out.println(max);
+        return max;
     }
 
     /**
@@ -221,7 +220,7 @@ public class StringUtil_2 {
 //        stringUtil2.Cesar("hellx hellz");
 
 //        stringUtil2.palindrome_2("acca abcba adsds ads asbsa");
-//        stringUtil2.subSequence("does not compiles because static methods are not allowed ","does nt compiles beca static mhods are not allwed ");
+        System.out.println(stringUtil2.subSequence("does not compiles because static methods are not allowed ", "does nt compiles beca static mhods are not allwed "));
 //        stringUtil2.commonChar("does not compiles because static methods are not allowed ","does nt compiles beca static mhods are not allwed ");
 
     }

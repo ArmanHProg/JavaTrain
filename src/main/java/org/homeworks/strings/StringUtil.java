@@ -7,8 +7,11 @@ public class StringUtil {
 
     /**
      * concatenation
+     *
+     * @return
      */
-    void concatenation() {
+    public String concatenation() {
+        String output = "";
         System.out.println("hello" + "world");
         System.out.println(1 + 2 + "hello");
         System.out.println("1" + 2 + "hello");
@@ -17,9 +20,10 @@ public class StringUtil {
         StringBuilder sc = new StringBuilder();
         sc.append("hello").append("world");
         sc.append(1 + 2 + "hello");
-        sc.append("1" + 2 + "hello");
+        output +=  sc.append("1" + 2 + "hello");
         System.out.println(sc.append("hello" + 1 + 2 + "world"));
 
+        return output;
     }
 
     /**
@@ -38,11 +42,15 @@ public class StringUtil {
 
     /**
      * reverse
+     *
+     * @return
      */
-    void reverse() {
+     public String reverse() {
+         String output = "";
         StringBuilder sc = new StringBuilder("hello");
-        System.out.println(sc.reverse());
-    }
+        output += sc.reverse();
+         return output;
+     }
 
     /**
      * exercise with token
@@ -51,7 +59,7 @@ public class StringUtil {
      * @param token
      * @return
      */
-    int countSubString(String line, String token) {
+     public int countSubString(String line, String token) {
         int l = 0;
         int f = token.length();
         StringBuilder sc = new StringBuilder(line);
@@ -65,15 +73,6 @@ public class StringUtil {
         return l;
     }
 
-    /**
-     * toUpperCase()
-     */
-//    void toUpperCase(String str) {
-//        StringBuilder sc = new StringBuilder(str);
-//        String str1 = String.valueOf(sc);
-//        System.out.println(str.toUpperCase());
-//        System.out.println(str1.toUpperCase());
-//    }
 
     /**
      * line with 20 symbols
@@ -152,7 +151,7 @@ public class StringUtil {
     /**
      * print longest word
      */
-    void longestWord() {
+     public String longestWord() {
         String str = "We are living in an yellow submarine. We don't have anything";
         String word[] = str.split(" ");
         String longest = word[0];
@@ -163,7 +162,7 @@ public class StringUtil {
             }
 
         }
-        System.out.println(longest);
+        return longest;
 
     }
 
@@ -208,7 +207,7 @@ public class StringUtil {
 //        obj.concatenation();
 //        obj.literals("hello world");
 //        obj.reverse();
-//        System.out.println(obj.countSubString("We are living in a yellow submarine. We don't  have anything", "in"));
+        System.out.println(obj.countSubString("We are living in a yellow submarine. We don't  have anything", "in"));
 //        obj.toUpperCase("hello");
 //        obj.Method20();
 //        obj.deleteA();

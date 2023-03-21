@@ -2,9 +2,11 @@ package org.homeworks.arrays;
 
 public class ArrayUtil {
 
-    // ******************************  1
-    // gtnel drakan@
-    //1
+    /**
+     * find positive mebers of array
+     * @param arr
+     * @return
+     */
 
     public static int[] getPositiveMembers(int[] arr) {
         int count = 0;
@@ -24,8 +26,9 @@ public class ArrayUtil {
         return positiveArr;
     }
 
-    //hakarak hertakanutyun
-    //2
+    /**
+     * reverse
+     */
     void reverseArray() {
         short[] s = new short[]{324, 258, 123};
         for (int i = 0; i < s.length; i++) {
@@ -35,8 +38,9 @@ public class ArrayUtil {
         }
     }
 
-    //arrayi amenamec tarr@
-    //3
+    /**
+     * max value of array
+     */
     void maxValue() {
         long[] l = new long[]{-4, 5, 68, 98, 4, 0, 69};
         // System.out.println(Arrays.stream(l).max()); *** variant 1
@@ -64,8 +68,9 @@ public class ArrayUtil {
 
     }
 
-    //arrayneri texapoxum
-    //5
+    /**
+     * replace arrays
+     */
     void replaceArrays() {
         int[] m = new int[]{1, 5, 69, 78, 12, 45, 65};
         int[] n = new int[m.length];
@@ -77,8 +82,9 @@ public class ArrayUtil {
 
     }
 
-    // arrayneri gumarum
-    //6
+    /**
+     * sum arrays
+     */
     void sumArrays() {
         int[] m = new int[]{1, 5, 69, 78, 12, 45, 65};
         int[] n = new int[]{2, 6, 89, 45, 2, 35, 987};
@@ -90,8 +96,9 @@ public class ArrayUtil {
 
     }
 
-    //ham@nknum k = 5 tvi het
-    //7
+    /**
+     * comparison with k=5
+     */
     void matchArray() {
         int k = 5;
         int match = 0;
@@ -104,18 +111,10 @@ public class ArrayUtil {
         System.out.println(match);
     }
 
-    // ************************ 2
 
-    //8
-    void trioArrays() {
-
-
-
-
-    }
-
-    // dasavorel achman kargov
-    //9
+    /**
+     * sort in ascending order
+     */
     void method() {
         int[] arr = new int[]{1, 5, 9, 8, 3, 4};
         int temp;
@@ -134,7 +133,9 @@ public class ArrayUtil {
         }
     }
 
-    //10
+    /**
+     * find odd arrays
+     */
     void oddArrays() {
         int[] arr = new int[]{1, 5, 9, 8, 3, 4};
         int temp;
@@ -154,8 +155,9 @@ public class ArrayUtil {
     }
 
 
-    // jnjel 0-ner@
-    //11
+    /**
+     * remove zeros
+     */
     void deleteArr() {
         int[] m = new int[]{1, 0, 6, 4, 9, 0, 0};
         int[] n = new int[m.length];
@@ -167,12 +169,6 @@ public class ArrayUtil {
         }
     }
 
-    //12
-    void longestSubsequence() {
-
-    }
-
-    //13
     void binaryArrays(int[] a) {
         int sum = 0;
         for (int i = a.length - 1, j = 0; i >= 0; i--, j++) {
@@ -181,7 +177,7 @@ public class ArrayUtil {
         System.out.println(sum);
     }
 
-    //14
+
     void matrix1() {
 
         int a[][] = {{1, 2, 3, 4},
@@ -198,19 +194,16 @@ public class ArrayUtil {
         }
     }
 
-    //15
-    void matrix2() {
-        int a[][] = {{1, 2, 3, 4},
-                {5, 6, 7, 8},
-                {1, 2, 3, 4},
-                {5, 6, 7, 8}};
+
+     public static  int[][]  matrix2(int[][] a) {
+
         int b[][] = new int[a.length][a.length];
         for (int i = 0; i < a.length; i++) {
             for (int j = 0; j < a.length; j++) {
-
-                System.out.println(b[i][j] = a[j][i]);
+                b[i][j] = a[j][i];
             }
         }
+        return b;
     }
 
     //16
@@ -253,7 +246,8 @@ public class ArrayUtil {
 //        arrayUtil.oddArrays();
 //        arrayUtil.deleteArr();
 //        arrayUtil.method();
-//        arrayUtil.matrix3();
+//        matrix2(a);
+
     }
 
 
