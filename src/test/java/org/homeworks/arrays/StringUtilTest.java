@@ -42,7 +42,6 @@ public class StringUtilTest {
        StringUtil stringUtil = new StringUtil();
        String actual = stringUtil.longestWord();
        Assertions.assertEquals(expected,actual);
-       System.out.println("gugo");
    }
 
    @Test
