@@ -1,4 +1,4 @@
-package org.homeworks.operators;
+package org.homeworks.algorithms;
 
 import java.util.Random;
 import java.util.Scanner;

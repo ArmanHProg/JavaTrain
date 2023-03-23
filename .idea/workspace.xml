@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8db3d66f-06bb-41ce-a2ec-56431489fc15" name="Changes" comment="a">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/homeworks/sorts/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/homeworks/sorts/HeapSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/homeworks/sorts/InsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/homeworks/sorts/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/homeworks/sorts/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/homeworks/sorts/SelectionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/homeworks/arrays/SortsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/homeworks/arrays/StringUtilTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/homeworks/arrays/StringUtilTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="8db3d66f-06bb-41ce-a2ec-56431489fc15" name="Changes" comment="add sorts" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -196,7 +185,7 @@
       <workItem from="1679416337160" duration="4840000" />
       <workItem from="1679421718948" duration="420000" />
       <workItem from="1679422150783" duration="662000" />
-      <workItem from="1679589239937" duration="4903000" />
+      <workItem from="1679589239937" duration="5235000" />
     </task>
     <task id="LOCAL-00001" summary="commit maven">
       <created>1678897646538</created>
@@ -254,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679422185657</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add sorts">
+      <created>1679595121270</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1679595121270</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,6 +275,7 @@
     <MESSAGE value="tests" />
     <MESSAGE value="new tests" />
     <MESSAGE value="a" />
-    <option name="LAST_COMMIT_MESSAGE" value="a" />
+    <MESSAGE value="add sorts" />
+    <option name="LAST_COMMIT_MESSAGE" value="add sorts" />
   </component>
 </project>

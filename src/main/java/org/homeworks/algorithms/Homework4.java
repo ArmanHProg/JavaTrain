@@ -1,4 +1,4 @@
-package org.homeworks.operators;
+package org.homeworks.algorithms;
 
 import java.util.Random;
 
@@ -61,6 +61,16 @@ public class Homework4 {
     public int rand() {
         Random my = new Random();
         return my.ints(1, 101).findFirst().getAsInt();
+    }
+
+
+    long n_to_the_power_of_m(int n, int m) {
+        if(m == 0) return 1;
+        long sum = 0;
+        for(int i = 0; i < n; ++i)
+            sum += n_to_the_power_of_m(n, m-1);
+        System.out.println("es durs chem mnacel");
+        return sum;
     }
 
 
