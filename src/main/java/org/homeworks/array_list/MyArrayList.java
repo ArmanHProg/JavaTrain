@@ -43,11 +43,7 @@ public class MyArrayList<E> {
     }
 
     public void insertFirst(E element) {
-        for (int i = 0; i > 0; i--) {
-            list[i] = list[i - 1];
-        }
-        list[0] = element;
-        size++;
+        add(0,element);
     }
 
     public void update(int index, E element) {
@@ -97,5 +93,11 @@ public class MyArrayList<E> {
             return true;
         }
         return false;
+    }
+
+    public void delete(int index){
+        for (int i =index ; i < size; i++) {
+            list[i] = list[i+1];
+        }
     }
 }
