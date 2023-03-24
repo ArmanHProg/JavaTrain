@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8db3d66f-06bb-41ce-a2ec-56431489fc15" name="Changes" comment="add sorts" />
+    <list default="true" id="8db3d66f-06bb-41ce-a2ec-56431489fc15" name="Changes" comment="add sorts">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/homeworks/array_list/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/homeworks/array_list/MyArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,19 +75,16 @@
       <recent name="org.homeworks.arrays" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SortsTest.HeapSortTest">
-    <configuration name="SortsTest.BubbleSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.homeworks.array_list.Main" />
       <module name="JavaTrain" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.homeworks.arrays.*" />
+          <option name="PATTERN" value="org.homeworks.array_list.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.homeworks.arrays" />
-      <option name="MAIN_CLASS_NAME" value="org.homeworks.arrays.SortsTest" />
-      <option name="METHOD_NAME" value="BubbleSortTest" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -154,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.SortsTest.HeapSortTest" />
         <item itemvalue="JUnit.SortsTest.mergeSortTest" />
         <item itemvalue="JUnit.SortsTest.insertionSortTest" />
         <item itemvalue="JUnit.SortsTest.selectionSortTest" />
-        <item itemvalue="JUnit.SortsTest.BubbleSortTest" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +186,8 @@
       <workItem from="1679416337160" duration="4840000" />
       <workItem from="1679421718948" duration="420000" />
       <workItem from="1679422150783" duration="662000" />
-      <workItem from="1679589239937" duration="5235000" />
+      <workItem from="1679589239937" duration="5964000" />
+      <workItem from="1679676553020" duration="5669000" />
     </task>
     <task id="LOCAL-00001" summary="commit maven">
       <created>1678897646538</created>
@@ -250,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679595121270</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add sorts">
+      <created>1679595502280</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1679595502280</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
