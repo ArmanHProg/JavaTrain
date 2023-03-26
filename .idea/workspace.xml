@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8db3d66f-06bb-41ce-a2ec-56431489fc15" name="Changes" comment="add MyArrayList">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/homeworks/collections/exercises/Homeworks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/homeworks/collections/exercises/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/homeworks/collections/linked_list/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/homeworks/collections/linked_list/MyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/homeworks/collections/linked_list/Node.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/homeworks/array_list/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/homeworks/array_list/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/homeworks/array_list/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/homeworks/array_list/MyArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/homeworks/array_list/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/homeworks/collections/array_list/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/homeworks/array_list/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/homeworks/collections/array_list/MyArrayList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,13 +80,39 @@
       <recent name="org.homeworks.arrays" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.org.homeworks.collections.exercises.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.homeworks.array_list.Main" />
       <module name="JavaTrain" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.homeworks.array_list.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.homeworks.collections.exercises.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.homeworks.collections.exercises.Main" />
+      <module name="JavaTrain" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.homeworks.collections.exercises.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.homeworks.linked_list.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.homeworks.linked_list.Main" />
+      <module name="JavaTrain" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.homeworks.linked_list.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,22 +136,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortsTest.insertionSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaTrain" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.homeworks.arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.homeworks.arrays" />
-      <option name="MAIN_CLASS_NAME" value="org.homeworks.arrays.SortsTest" />
-      <option name="METHOD_NAME" value="insertionSortTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SortsTest.mergeSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaTrain" />
       <extension name="coverage">
@@ -137,29 +152,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortsTest.selectionSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaTrain" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.homeworks.arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.homeworks.arrays" />
-      <option name="MAIN_CLASS_NAME" value="org.homeworks.arrays.SortsTest" />
-      <option name="METHOD_NAME" value="selectionSortTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.homeworks.collections.exercises.Main" />
+        <item itemvalue="Application.org.homeworks.linked_list.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.SortsTest.HeapSortTest" />
         <item itemvalue="JUnit.SortsTest.mergeSortTest" />
-        <item itemvalue="JUnit.SortsTest.insertionSortTest" />
-        <item itemvalue="JUnit.SortsTest.selectionSortTest" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +186,8 @@
       <workItem from="1679421718948" duration="420000" />
       <workItem from="1679422150783" duration="662000" />
       <workItem from="1679589239937" duration="5964000" />
-      <workItem from="1679676553020" duration="6331000" />
+      <workItem from="1679676553020" duration="7197000" />
+      <workItem from="1679819570197" duration="7729000" />
     </task>
     <task id="LOCAL-00001" summary="commit maven">
       <created>1678897646538</created>
@@ -266,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679682732940</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="add MyArrayList">
+      <created>1679683265010</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1679683265010</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

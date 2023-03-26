@@ -1,6 +1,4 @@
-package org.homeworks.array_list;
-
-import java.util.ArrayList;
+package org.homeworks.collections.array_list;
 
 public class Main {
 
@@ -16,7 +14,6 @@ public class Main {
     myArrayList.insertFirst(0);
     myArrayList.update(2,8);
     myArrayList.swap(0,4);
-
 
         myArrayList.iterate();
 

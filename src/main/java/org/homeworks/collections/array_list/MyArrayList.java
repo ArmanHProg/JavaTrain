@@ -1,4 +1,4 @@
-package org.homeworks.array_list;
+package org.homeworks.collections.array_list;
 
 import java.util.*;
 
