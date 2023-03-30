@@ -4,6 +4,9 @@ import java.util.*;
 
 public class Queues {
 
+    /**
+     * making queue
+     */
         public void queue(){
 
             Queue queue = new LinkedList();
